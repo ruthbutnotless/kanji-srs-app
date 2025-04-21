@@ -1,0 +1,43 @@
+.dashboard {
+  width: 250px;
+  font-family: sans-serif;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.bar-chart {
+  display: flex;
+  align-items: flex-end;
+  height: 150px;
+  gap: 8px;
+  padding: 10px 0;
+}
+
+.bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  width: 20px;
+  background-color: #4caf50;
+  transition: height 0.3s;
+}
+
+.label {
+  margin-top: 4px;
+  font-size: 0.75rem;
+}
+
+.count {
+  font-size: 0.75rem;
+  color: #333;
+}
+
+.srs-timeline {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
